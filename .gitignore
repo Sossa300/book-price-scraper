@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Scraper results and logs (the example data in data/ IS committed)
+output/
+*.log
+
+# Secrets / local settings
+.env
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
